@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="double.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="whole">
+
+
+
+
+
+        <div class="playerxs">
+            <div class="playerxsn">Player X Start</div>
+            <div class="playerxcn">Click to start</div>
+        </div>
+        <div class="playeros">
+            <div class="playerosn">Player O Start</div>
+            <div class="playerocn">Click to start</div>
+        </div>
+
+        <div class="playerxw">
+            <div class="playerxw1">Player X Win</div>
+            <div class="playerxw2">Press to play again</div>
+        </div>
+        <div class="playerow">
+            <div class="playerow1">Player O Win</div>
+            <div class="playerow2">Press to play again</div>
+        </div>
+        <div class="playerd">
+            <div class="playerd1">Match Draw</div>
+            <div class="playerd2">Press to play again</div>
+        </div>
+
+
+        
+
+
+
+        <div class="option">
+            <div class="whostart">
+                Who Will Start First
+            </div>
+            <div class="playerxo">
+                <div class="playerx">
+                    <div class="playerx1">
+                        Player X
+                    </div>
+                </div>
+                <div class="playero">
+                    <div class="playero1">
+                        Player O
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="theme"> -->
+        <div class="leftm">
+            <div class="lefthead">
+                <div class="iconl">
+
+                    <i class="fa fa-times" aria-hidden="true"></i>
+
+                </div>
+                <div class="subhl">
+                    <div>Menu</div>
+                </div>
+            </div>
+            <a href="single.html" style="text-decoration: none;">
+                <div class="reset">
+                    <div>Reset</div>
+                </div>
+            </a>
+            <hr>
+            <a href="index.html" style="text-decoration: none;">
+                <div class="moveto">
+                    <div>Exit to Main Menu</div>
+                </div>
+            </a>
+            <hr>
+        </div>
+        <div class="rightm">
+            <div class="righthead">
+
+                <div class="subhr">
+                    <div>Settings</div>
+                </div>
+                <div class="iconr">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="sound">
+                <div>Volume</div>
+            </div>
+            <hr>
+            <div class="backtheme">
+                <div>Choose Theme</div>
+            </div>
+
+            <div class="wallpaper">
+                <div id="wall1" onclick="back(this)"></div>
+                <div id="wall2" onclick="back(this)"></div>
+                <div id="wall3" onclick="back(this)"></div>
+                <div id="wall4" onclick="back(this)"></div>
+                <div id="wall5" onclick="back(this)"></div>
+                <div id="wall6" onclick="back(this)"></div>
+                <div id="wall7" onclick="back(this)"></div>
+                <div id="wall8" onclick="back(this)"></div>
+            </div>
+        </div>
+        <div class="menu">
+
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div class="setting">
+
+            <i class="fas fa-cog"></i>
+        </div>
+        <!-- font-family: 'Black Han Sans', sans-serif; -->
+        <div class="grids">
+            <div class="grid" id="block1" onclick="fill(this)"></div>
+            <div class="grid" id="block2" onclick="fill(this)"></div>
+            <div class="grid" id="block3" onclick="fill(this)"></div>
+            <div class="grid" id="block4" onclick="fill(this)"></div>
+            <div class="grid" id="block5" onclick="fill(this)"></div>
+            <div class="grid" id="block6" onclick="fill(this)"></div>
+            <div class="grid" id="block7" onclick="fill(this)"></div>
+            <div class="grid" id="block8" onclick="fill(this)"></div>
+            <div class="grid" id="block9" onclick="fill(this)"></div>
+        </div>
+
+
+        <!-- </div> -->
+        <div class="score">
+            <div class="snumber">
+                <div class="snumber1">
+                    <h2>0</h2>
+                </div>
+                <div class="snumber2">
+                    <h2>0</h2>
+                </div>
+                <div class="snumber3">
+                    <h2>0</h2>
+                </div>
+            </div>
+            <div class="name">
+                <div class="name1">
+                    <h2>Player <span>X</span></h2>
+                </div>
+                <div class="name2">
+                    <h2>Tie</h2>
+                </div>
+                <div class="name3">
+                    <h2>Player <span>O</span></h2>
+                </div>
+            </div>
+
+        </div>
+        <div class="bar">
+
+        </div>
+
+
+    </div>
+</body>
+<script src="main.js"></script>
+<script src="double.js"></script>
+
+</html>

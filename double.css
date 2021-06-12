@@ -1,0 +1,927 @@
+.whole{
+    height: 100vh;
+    width: 100vw;
+    background:url('wall1.jpg');
+    background-size: 100% 100%;
+
+}
+
+
+
+.option{
+    z-index: 100;
+    height: 60vh;
+    width: 50vw;
+    position: absolute;
+    top: 16vh;
+    left: 25vw;
+    background-color: #fff;
+    /* box-shadow: 0px 0px 6px 4px lightgray; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5vh;
+    transition: all 0.5s ease;
+    background-image: url("6134.jpg");
+    background-size: 100% 134%;
+}
+.optionrm{
+    position: absolute;
+    top: 46vh;
+    left: 50vw;
+    height: 0vh;
+    width: 0vw;
+    overflow: hidden;
+    box-shadow:none;
+}
+.whostart{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 43px;
+    font-weight: bolder;
+    color:#fff;
+    margin-top: 5vh;
+    background-color: rgb(91, 187, 177);
+    border: solid 4px turquoise;
+    /* border-radius: 11%; */
+    box-shadow: 0px 4px 0px lightgray;
+    padding: 4px;
+}
+.playerxo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5vw;
+    margin-top: 5vh;
+}
+ .playerxo  .playerx{
+    height: 7vh;
+    width: 13vw;
+    margin: 3vh;
+    overflow: hidden;
+    color: white;
+    background-color: rgb(91, 187, 177);
+    border: solid 4px turquoise;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 0px lightgray;
+
+}
+ .playerxo  .playerx:hover{
+    transform: scale(1.02);
+    position: relative;
+    top: -4px;
+}
+
+
+.playerx1{
+   font-family:'Baloo Bhai 2', cursive;
+   font-weight: 400;
+   font-size: x-large;
+   overflow: hidden;
+}
+ .playerxo  .playero{
+    height: 7vh;
+    width: 13vw;
+    margin: 3vh;
+    overflow: hidden;
+    color: white;
+    background-color: rgb(91, 187, 177);
+    border: solid 4px turquoise;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border-radius: 11%;
+   box-shadow: 0px 4px 0px lightgray;
+}
+ .playerxo  .playero:hover{
+    transform: scale(1.02);
+    position: relative;
+    top: -4px;
+}
+
+.playero1{
+    font-family:'Baloo Bhai 2', cursive;
+   font-weight: 400;
+   font-size: x-large;
+   overflow: hidden;
+}
+
+
+
+.playerxs{
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 15vh;
+    width: 100vw;
+    position:absolute;
+    left: -100vw;
+    top:33vh;
+    transition: all 0.3s ease;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.playerxsn{
+    font-size: 30px;
+    margin-top: 3vh;
+    color: #fff;
+    overflow: hidden;
+    font-family:'Baloo Bhai 2', cursive;
+    font-weight: bolder;
+}
+.playerxcn{
+    font-size: 20px;
+    margin-top: 1vh;
+    color: #fff;
+    font-family:'Baloo Bhai 2', cursive;
+    overflow: hidden;
+}
+    
+
+.playerxsactive{
+    position:absolute;
+    left: 0vw;
+    top:33vh;
+}
+.playerxsdactive{
+    position:absolute;
+    left: 100vw;
+    top:33vh;
+}
+.playeros{
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 15vh;
+    width: 100vw;
+    position:absolute;
+    left: -100vw;
+    top:33vh;
+    transition: all 0.3s ease;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.playerosn{
+    font-size: 30px;
+    margin-top: 3vh;
+    color:#fff;
+    overflow: hidden;
+    font-family:'Baloo Bhai 2', cursive;
+    font-weight: bolder;
+}
+.playerocn{
+    font-size: 20px;
+    margin-top: 1vh;
+    color: #fff;
+    overflow: hidden;
+    font-family:'Baloo Bhai 2', cursive;
+}
+.playerosactive{
+    position:absolute;
+    left: 0vw;
+    top:33vh;
+}
+.playerosdactive{
+    position:absolute;
+    left: 100vw;
+    top:33vh;
+}
+
+
+
+.playerxw{
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 15vh;
+    width: 100vw;
+    position:absolute;
+    left: -100vw;
+    top:33vh;
+    transition: all 0.3s ease;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.playerxw1{
+    font-size: 30px;
+    margin-top: 3vh;
+    color:#fff;
+    overflow: hidden;
+    font-family:'Baloo Bhai 2', cursive;
+    font-weight: bolder;
+}
+.playerxw2{
+    font-size: 20px;
+    margin-top: 1vh;
+    color: #fff;
+    font-family:'Baloo Bhai 2', cursive;
+    overflow: hidden;
+}
+.playerxwcome{
+    position:absolute;
+    left: 0vw;
+    top:33vh;
+    transition: all 0.3s ease;
+}
+.playerxwgo{
+    position:absolute;
+    left: 100vw;
+    top:33vh;
+}
+
+
+.playerow{
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 15vh;
+    width: 100vw;
+    position:absolute;
+    left: -100vw;
+    top:33vh;
+    transition: all 0.3s ease;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.playerow1{
+    font-size: 30px;
+    margin-top: 3vh;
+    color: #fff;
+    overflow: hidden;
+    font-family:'Baloo Bhai 2', cursive;
+    font-weight: bolder;
+}
+.playerow2{
+    font-size: 20px;
+    margin-top: 1vh;
+    color: #fff;
+    font-family:'Baloo Bhai 2', cursive;
+    overflow: hidden;
+}
+.playerowcome{
+    position:absolute;
+    left: 0vw;
+    top:33vh;
+    transition: all 0.3s ease;
+}
+.playerowgo{
+    position:absolute;
+    left: 100vw;
+    top:33vh;
+}
+.playerd{
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 15vh;
+    width: 100vw;
+    position:absolute;
+    left: -100vw;
+    top:33vh;
+    transition: all 0.3s ease;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.playerd1{
+    font-size: 30px;
+    margin-top: 3vh;
+    color:#fff;
+    overflow: hidden;
+    font-family:'Baloo Bhai 2', cursive;
+    font-weight: bolder;
+}
+.playerd2{
+    font-size: 20px;
+    margin-top: 1vh;
+    color: #fff;
+    font-family:'Baloo Bhai 2', cursive;
+    overflow: hidden;
+}
+.playerdcome{
+    position:absolute;
+    transition: all 0.3s ease;
+    left: 0vw;
+    top:33vh;
+}
+.playerdgo{
+    position:absolute;
+    left: 100vw;
+    top:33vh;
+}
+
+
+
+
+
+
+
+
+
+.theme{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background:url("wall5.jpg");
+    background-size: 100% 100%;
+   /* background-color: black; */
+   /* opacity: 0.5; */
+   /* background: rgba(0, 0, 0, 0.562);
+  background-blend-mode: darken; */
+}
+
+.grids{
+    height: 60vh;
+    width: 60vh;
+    margin:17vh auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    opacity: 1;
+    margin-bottom: 0vh;
+
+}
+.grid{
+    height: 20vh;
+    width: 20vh;
+    border: solid 7px lightgrey;
+    box-shadow: 0px 10px rgb(129, 123, 123);
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 120px;
+    text-align: center;
+    font-weight: bolder;
+    overflow: hidden;
+}
+/* #block1{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+   
+} */
+#block1{
+    border-left: none;
+    border-top: none;
+   
+   
+}
+#block2{
+    
+    border-top: none;
+    
+}
+#block3{
+   
+    border-top: none;
+    border-right: none;
+    
+   
+}
+#block4{
+    border-left: none;
+   
+    background:none;
+   
+}
+#block5{
+   
+}
+#block6{
+   
+    border-right: none;
+    
+   
+}
+#block7{
+    border-left: none;
+    
+    border-bottom: none;
+   
+}
+#block8{
+   
+    border-bottom: none;
+    
+}
+#block9{
+    
+    border-right: none;
+    border-bottom: none;
+
+}
+
+/* .grid {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 120px;
+    text-align: center;
+    font-weight: bolder;
+} */
+.menu{
+    height: 8vh;
+    width:8vh;
+    background-color: rgb(91, 187, 177);
+    border: solid 4px turquoise;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 2vw;
+    top:2vh;
+    box-shadow: 0px 4px 0px lightgray;
+    transition: all 0.3s ease;
+}
+
+
+
+.menu:hover{
+
+    box-shadow: 0px 4px 0px lightgray;
+    top:1.6vh;
+}
+.menu i{
+    color: #fff;
+    font-size: 30px;
+}
+
+.setting{
+    height: 8vh;
+    width:8vh;
+    background-color: rgb(91, 187, 177);
+    transition: all 0.3s ease;
+
+    border: solid 4px turquoise;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 94vw;
+    top:2vh;
+    box-shadow: 0px 4px 0px lightgray;
+
+}
+.setting:hover{
+
+    box-shadow: 0px 4px 0px lightgray;
+    top:1.6vh;
+}
+.setting i{
+    color: #fff;
+    font-size: 30px;
+}
+
+.leftm{
+    height: 100vh;
+    width:30vw;
+    position:absolute;
+    left:-31vw;
+    top:0;
+    background-color:rgb(58, 168, 157);
+    display: flex;
+    flex-direction: column;
+    transition: left 0.5s ease;
+    z-index: 10000;
+
+}
+.active{
+   left:0vw;
+   box-shadow: 0px 0px 7px 4px  rgb(129, 123, 123);
+
+}
+
+.rightm{
+    height: 100vh;
+    width:30vw;
+    position:absolute;
+    left:+131vw;
+    top:0;
+    background-color: rgb(58, 168, 157);
+    display: flex;
+    flex-direction: column;
+    transition: left 0.5s ease;
+    z-index: 10000;
+}
+.sactive{
+    left:70vw;
+    box-shadow: 0px 0px 7px 4px  rgb(129, 123, 123);
+ 
+ }
+
+ .lefthead{
+    display: flex;
+    flex-direction: row;
+    
+}
+ 
+.iconl{
+    height: 13vh;
+    width: 5vw;
+    background-color: rgb(172, 171, 171);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.subhl{
+    /* text-align: center; */
+    height: 13vh;
+    width: 25vw;
+    background-color: #fff;
+    
+    font-size: x-large;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.subhl div{
+    /* margin: auto; */
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 43px;
+    font-weight: bolder;
+    color: crimson;
+}
+.reset{
+    /* text-align: center; */
+    height: 13vh;
+    width: 30vw;
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset:hover{
+    background-color: rgb(46, 163, 151);
+}
+.reset div{
+      /* margin: 3vh auto;  */
+      font-family: 'Baloo Bhai 2', cursive;
+      font-size: 30px;
+      font-weight: bolder;
+      color: #fff;
+}
+.moveto{
+    
+    
+    height: 13vh;
+    width: 30vw;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.moveto:hover{
+    background-color: rgb(46, 163, 151);
+}
+.moveto div{
+    /* margin: 3px auto; */
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+}
+.rightm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.righthead{
+   
+   display: flex;
+   flex-direction: row;
+   
+}
+
+.iconr{
+   height: 13vh;
+   width: 5vw;
+   background-color: rgb(172, 171, 171);
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.subhr{
+    /* text-align: center; */
+   height: 13vh;
+   width: 25vw;
+   background-color:#fff;
+ 
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.subhr div{
+    /* margin: auto; */
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 43px;
+    font-weight: bolder;
+    color: crimson;
+}
+.sound{
+    /* text-align: center; */
+   height: 13vh;
+   width: 30vw;
+  
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.sound:hover{
+    background-color: rgb(46, 163, 151);
+}
+.sound div{
+    /* margin: auto; */
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+}
+.backtheme{
+    /* text-align: center; */
+   height: 13vh;
+   width: 30vw;
+   
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.backtheme:hover{
+    background-color: rgb(46, 163, 151);
+}
+
+.backtheme div{
+    /* margin: auto; */
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+    
+}
+
+
+
+hr{
+    border: 1px solid rgb(218, 218, 218);
+    
+    width: 30vw;
+   color: black;
+}
+
+.iconl i,.iconr i{
+    font-size: 30px;
+    transition: all 0.3s ease;
+}
+.iconl i:hover,.iconr i:hover{
+    font-size: 35px;
+}
+
+.score{
+    height: 10vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    position: absolute;
+    left:35vw;
+    top:89vh;
+    overflow: hidden;
+    color: black;
+    
+
+}
+
+.snumber{
+    height: 5vh;
+    width: 30vw;
+    display: flex;
+    flex-direction:row;
+    overflow: hidden;
+
+}
+.snumber1{
+    height: 3vh;
+    width: 10vw;
+    text-align: center;
+    font-size: 15px;
+    overflow: hidden;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.snumber2{
+    height: 3vh;
+    width: 10vw;
+    text-align: center;
+    font-size: 15px;
+    overflow: hidden;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.snumber3{
+    height: 3vh;
+    width: 10vw;
+    text-align: center;
+    font-size: 15px;
+    overflow: hidden;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.name{
+  
+        height: 5vh;
+        width: 30vw;
+        display: flex;
+        flex-direction:row;
+        overflow: hidden;
+   
+}
+.name1{
+  
+    height: 3vh;
+    width: 10vw;
+    text-align: center;
+    font-size: 15px;
+    overflow: hidden;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name2{
+  
+    height: 3vh;
+    width: 10vw;
+    text-align: center;
+    font-size: 15px;
+    overflow: hidden;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name3{
+  
+    height: 3vh;
+    width: 10vw;
+    text-align: center;
+    font-size: 15px;
+    overflow: hidden;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bar{
+    height: 1vh;
+        width: 10vw;
+        position: absolute;
+        left:35vw;
+        top:99vh;
+
+        background-color: crimson;
+       
+        overflow: hidden;
+        transition: all 0.2s ease;
+}
+
+.wallpaper{
+    height: 61vh;
+    width: 30vw;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap:2.8vw ;
+    row-gap: 1vh;
+    flex-wrap: wrap;
+   
+    overflow: hidden;
+    
+}
+
+#wall1{
+    height: 12vh;
+    width: 10vw;
+    background: #fff;
+    
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+#wall1:hover{
+  transform:scale(1.04);
+  background: #fff;
+}
+#wall2{
+    height: 12vh;
+    width: 10vw;
+    background: #303030;
+   
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+#wall2:hover{
+    transform:scale(1.04);
+  }
+#wall3{
+    height: 12vh;
+    width: 10vw;
+    background: url("wall3.jpg");
+    background-size: 100% 100%;
+    
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+#wall3:hover{
+    transform:scale(1.04);
+  }
+#wall4{
+    height: 12vh;
+    width: 10vw;
+    background: url("wall4.jpg");
+    background-size: 100% 100%;
+   
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+#wall4:hover{
+    transform:scale(1.04);
+  }
+#wall5{
+    height: 12vh;
+    width: 10vw;
+    background: url("wall5.jpg");
+    background-size: 100% 100%;
+    
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+#wall5:hover{
+    transform:scale(1.04);
+  }
+#wall6{
+    height: 12vh;
+    width: 10vw;
+    background: url("wall6.jpg");
+    background-size: 100% 100%;
+    
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+#wall6:hover{
+    transform:scale(1.04);
+  }
+#wall7{
+    height: 12vh;
+    width: 10vw;
+    background: url("wall7.jpg");
+    background-size: 100% 100%;
+    
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+#wall7:hover{
+    transform:scale(1.04);
+  }
+#wall8{
+    height: 12vh;
+    width: 10vw;
+    background: url("wall8.jpg");
+    background-size: 100% 100%;
+   
+    transition: all 0.3s ease;
+    overflow: hidden;
+
+}
+#wall8:hover{
+    transform:scale(1.04);
+  }
+
+
+
+
+

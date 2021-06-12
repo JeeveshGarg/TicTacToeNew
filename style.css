@@ -1,0 +1,228 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* width: 100vw; */
+    background-color: none;
+    
+    overflow-x: hidden;
+    /* background-color: rgb(66, 65, 65); */
+   
+
+}
+nav{
+ 
+   width: 100vw;
+   padding: 2.3px 0px;
+   background-color:none;
+   overflow: hidden;
+   position:fixed;
+   transition: 0.3s ease all;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+nav .box11{
+    /* height: 10vh; */
+    width: 100vw;
+    margin: 0px auto;
+    text-align: center;
+    overflow: hidden;
+    font-size: 30px;
+    color:rgb(91, 187, 177);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.sticky{
+    padding:0px 0;
+    background-color:crimson;
+    box-shadow: 0px 0px 7px 4px  rgb(129, 123, 123);
+    box-sizing: border-box;
+    
+}
+.box2{
+    height: 80vh;
+    width: 100vw;
+    background-image: url(background.jpeg);
+    background-size: 100% 100%;
+    overflow: hidden;
+    box-shadow: inset -4px -4px 6px rgb(129, 123, 123);
+}
+.box21{
+    height: 80vh;
+    width: 60vw;
+    margin:auto;
+    background-image: url(gamearea.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+    box-shadow: inset 0px -4px 6px rgb(129, 123, 123);
+}
+.box2 .box21  .box211{
+    height: 35vh;
+    width: 33vh;
+    margin:6vh auto;
+    overflow: hidden;
+
+}
+
+.box2 .box21 img{
+    height: 35vh;
+    width: 33vh;
+   
+
+}
+.box3{
+    height: 65vh;
+    width: 70vw;
+    margin: 0px auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3vh;
+    box-shadow: 0px 0px 6px 4px lightgray;
+    
+
+}
+.box31{
+    color: crimson;
+}
+.box32{
+   display: flex;
+   flex-direction: row;
+   column-gap: 6vw;
+
+}
+.box321{
+    display: flex;
+   flex-direction:column;
+   /* align-items: center; */
+   margin-left: 0vw;
+   width: 27vw;
+}
+.box3211{
+    margin: 2vh 0px;
+}
+.box322{
+    display: flex;
+   flex-direction:column;
+   /* align-items: center; */
+   margin-left: 2vw;
+   width: 27vw;
+}
+.box3221{
+    margin: 2vh 0px;
+}
+
+ul{
+    display:inline-block;
+    list-style-type: disc;
+}
+li{
+    margin: 1.8vh 0px;
+}
+.box2 .box21 a .box212{
+    height: 7vh;
+    width: 13vw;
+    margin: 0px auto;
+    overflow: hidden;
+    color: white;
+    background-color: rgb(91, 187, 177);
+    border: solid 4px turquoise;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 0px lightgray;
+
+}
+.box2 .box21 a .box212:hover{
+    transform: scale(1.02);
+    position: relative;
+    top: -4px;
+}
+
+
+.box2121{
+   font-family:'Baloo Bhai 2', cursive;
+   font-weight: 400;
+   font-size: x-large;
+   overflow: hidden;
+}
+.box2 .box21 a .box213{
+    height: 7vh;
+    width: 13vw;
+    margin: 30px auto;
+    overflow: hidden;
+    color: white;
+    background-color: rgb(91, 187, 177);
+    border: solid 4px turquoise;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border-radius: 11%;
+   box-shadow: 0px 4px 0px lightgray;
+}
+.box2 .box21 a .box213:hover{
+    transform: scale(1.02);
+    position: relative;
+    top: -4px;
+}
+
+.box2131{
+    font-family:'Baloo Bhai 2', cursive;
+   font-weight: 400;
+   font-size: x-large;
+   overflow: hidden;
+}
+
+.footer{
+    /* background-color:rgb(120, 120, 173); */
+    background-color:rgb(158, 157, 157);
+    width: 100vw;
+    height: 17vh;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sm{
+    margin: 3vh 0px;
+    overflow: hidden;
+}
+.sm i{
+    font-size: 35px;
+    color: #fff;
+    margin: 0px 2vw;
+    overflow: hidden;
+}
+
+.cut{
+    width: 100%;
+    overflow: hidden;
+
+   
+}
+.love{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5vh;
+    color: #fff;
+    overflow: hidden;
+}
+.love .icon{
+   padding-top:0.4vh;
+   overflow: hidden;
+}
+.love .icon i{
+ 
+    overflow: hidden;
+ }
+
+
