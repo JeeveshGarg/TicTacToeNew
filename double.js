@@ -6,7 +6,7 @@ let wall5=document.querySelector('#wall5');
 let wall6=document.querySelector('#wall6');
 let wall7=document.querySelector('#wall7');
 let wall8=document.querySelector('#wall8');
-let body=document.querySelector('.whole');
+let body=document.querySelector('body');
 let score=document.querySelector('.score');
 
 
@@ -55,7 +55,7 @@ wall2.addEventListener('click',function run(){
     
     body.style.background="url('wall6.jpg')";
     body.style.backgroundSize="100% 100%";
-    score.style.color="black";
+    score.style.color="#fff";
      
      
  });
