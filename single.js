@@ -47,7 +47,7 @@ wall5.addEventListener('click', function run() {
 
     body.style.background = "url('wall5.jpg')";
     body.style.backgroundSize = "100% 100%";
-    score.style.color = "black";
+    score.style.color = "#fff";
 
 
 });
