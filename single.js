@@ -212,7 +212,8 @@ crossr.addEventListener('click', function run() {
 playerx.addEventListener('click', function run() {
     flag = true;
     temp = true;
-    bar.style.left = 35 + "vw";
+    // bar.style.left = 35 + "vw";
+    bar.classList.remove('baradd');
 
     if (ai == true) {
         bar.style.backgroundColor = "crimson";
@@ -228,7 +229,8 @@ playerx.addEventListener('click', function run() {
 playero.addEventListener('click', function run() {
     flag = true;
     temp = false;
-    bar.style.left = 55 + "vw";
+    // bar.style.left = 55 + "vw";
+    bar.classList.add('baradd');
 
     if (ai == true) {
 
@@ -891,7 +893,8 @@ function fill(control) {
                 bardo(control.id, 'X');
 
                 ground.style.color = "crimson";
-                bar.style.left = 55 + "vw";
+                // bar.style.left = 55 + "vw";
+                bar.classList.add('baradd');
                 bar.style.backgroundColor = "lightskyblue";
 
                 ground.innerHTML = "X";
@@ -937,7 +940,8 @@ function fill(control) {
                 let ground = document.getElementById(control.id);
                 bardo(control.id, 'O');
                 ground.style.color = "lightskyblue";
-                bar.style.left = 55 + "vw";
+                // bar.style.left = 55 + "vw";
+                bar.classList.add('baradd');
                 bar.style.backgroundColor = "crimson";
 
                 ground.innerHTML = "O";
@@ -989,7 +993,9 @@ function bestmove() {
         if (ai == true) {
             board[move.k][move.j] = 'O';
             alexaturn(move.k, move.j, 'O');
-            bar.style.left = 35 + "vw";
+            // bar.style.left = 35 + "vw";
+            bar.classList.remove('baradd');
+
             bar.style.backgroundColor = "crimson";
 
 
@@ -997,7 +1003,8 @@ function bestmove() {
         else {
             board[move.k][move.j] = 'X';
             alexaturn(move.k, move.j, 'X');
-            bar.style.left = 35 + "vw";
+            // bar.style.left = 35 + "vw";
+            bar.classList.remove('baradd');
             bar.style.backgroundColor = "lightskyblue";
 
         }

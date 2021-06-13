@@ -86,7 +86,8 @@ crossr.addEventListener('click',function run(){
 playerx.addEventListener('click',function run(){
     flag=true;
     temp=true;
-    bar.style.left = 35+"vw";
+    // bar.style.left = 35+"vw";
+    bar.classList.remove('baradd');
     bar.style.backgroundColor="crimson";
     option.classList.add('optionrm');
     playerxs.classList.add('playerxsactive');
@@ -95,7 +96,8 @@ playerx.addEventListener('click',function run(){
 playero.addEventListener('click',function run(){
     flag=true;
     temp=false;
-    bar.style.left = 55+"vw";
+    // bar.style.left = 55+"vw";
+    bar.classList.add('baradd');
     bar.style.backgroundColor="lightskyblue";
     option.classList.add('optionrm');
     playeros.classList.add('playerosactive');
@@ -369,7 +371,8 @@ snumberx.innerHTML=scorex;
                  let ground=document.getElementById(control.id);
                  
                  ground.style.color="crimson";
-                 bar.style.left = 55+"vw";
+                //  bar.style.left = 55+"vw";
+                 bar.classList.add('baradd');
                  bar.style.backgroundColor="lightskyblue";
                  
                  ground.innerHTML="X";
@@ -379,7 +382,8 @@ snumberx.innerHTML=scorex;
              {
               let ground=document.getElementById(control.id);
               ground.style.color="lightskyblue";
-              bar.style.left = 35+"vw";
+            //   bar.style.left = 35+"vw";
+              bar.classList.remove('baradd');
               bar.style.backgroundColor="crimson";
               ground.innerHTML="O";
              }
@@ -401,7 +405,8 @@ snumberx.innerHTML=scorex;
           
                  let ground=document.getElementById(control.id);
                  ground.style.color="crimson";
-                 bar.style.left = 55+"vw";
+                //  bar.style.left = 55+"vw";
+                 bar.classList.add('baradd');
                 
                  bar.style.backgroundColor="lightskyblue";
                  ground.innerHTML="X";
@@ -410,7 +415,8 @@ snumberx.innerHTML=scorex;
              {
               let ground=document.getElementById(control.id);
               ground.style.color="lightskyblue";
-              bar.style.left = 35+"vw";
+            //   bar.style.left = 35+"vw";
+              bar.classList.remove('baradd');
               bar.style.backgroundColor="crimson";
              
               ground.innerHTML="O";
