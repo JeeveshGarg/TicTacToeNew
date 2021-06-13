@@ -1965,6 +1965,81 @@ hr{
     overflow: hidden;
     transition: all 0.2s ease;
 }
+.playerxsn{
+    font-size: 30px;
+    margin-top: 3vh;
+    color: #fff;
+    overflow: hidden;
+    font-family:'Baloo Bhai 2', cursive;
+    font-weight: bolder;
+}
+.playerxcn{
+    font-size: 20px;
+    margin-top: 1vh;
+    color: #fff;
+    font-family:'Baloo Bhai 2', cursive;
+    overflow: hidden;
+}
+.playerosn{
+    font-size: 30px;
+    margin-top: 3vh;
+    color:#fff;
+    overflow: hidden;
+    font-family:'Baloo Bhai 2', cursive;
+    font-weight: bolder;
+}
+.playerocn{
+    font-size: 20px;
+    margin-top: 1vh;
+    color: #fff;
+    overflow: hidden;
+    font-family:'Baloo Bhai 2', cursive;
+}
+.playerxw1{
+    font-size: 30px;
+    margin-top: 3vh;
+    color:#fff;
+    overflow: hidden;
+    font-family:'Baloo Bhai 2', cursive;
+    font-weight: bolder;
+}
+.playerxw2{
+    font-size: 20px;
+    margin-top: 1vh;
+    color: #fff;
+    font-family:'Baloo Bhai 2', cursive;
+    overflow: hidden;
+}
+.playerow1{
+    font-size: 30px;
+    margin-top: 3vh;
+    color: #fff;
+    overflow: hidden;
+    font-family:'Baloo Bhai 2', cursive;
+    font-weight: bolder;
+}
+.playerow2{
+    font-size: 20px;
+    margin-top: 1vh;
+    color: #fff;
+    font-family:'Baloo Bhai 2', cursive;
+    overflow: hidden;
+}
+.playerd1{
+    font-size: 30px;
+    margin-top: 3vh;
+    color:#fff;
+    overflow: hidden;
+    font-family:'Baloo Bhai 2', cursive;
+    font-weight: bolder;
+}
+.playerd2{
+    font-size: 20px;
+    margin-top: 1vh;
+    color: #fff;
+    font-family:'Baloo Bhai 2', cursive;
+    overflow: hidden;
+}
 
     
  }
